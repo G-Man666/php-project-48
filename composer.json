@@ -14,5 +14,7 @@
         }
     ],
     "minimum-stability": "beta",
-    "require": {}
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
 }
