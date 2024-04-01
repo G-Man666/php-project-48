@@ -1,0 +1,18 @@
+{
+    "name": "hexlet/code",
+    "description": "Diff calculator",
+    "type": "project",
+    "license": "apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian Chernov"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
