@@ -4,10 +4,13 @@
     "type": "project",
     "license": "apache-2.0",
     "autoload": {
+        "files": [
+
+        ]
+    },
         "psr-4": {
             "Hexlet\\Code\\": "src/"
-        }
-    },
+        },
     "authors": [
         {
             "name": "Christian Chernov"
