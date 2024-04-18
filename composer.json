@@ -4,10 +4,9 @@
     "type": "project",
     "license": "apache-2.0",
     "autoload": {
-        "files": [],
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+        "files": [
+            "src/Differ.php"
+        ]
     },
     "bin": [
         "bin/gendiff"

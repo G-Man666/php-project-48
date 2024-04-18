@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Differ;
+namespace Differ\Differ;
 
 function genDiff()
 {
-
 }

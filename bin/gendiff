@@ -10,4 +10,18 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function App\Differ\gendiff
+use function Differ\Differ\gendiff;
+
+$doc = <<<DOC
+gendiff -h
+
+Generate diff
+
+Usage:
+  gendiff (-h|--help)
+  gendiff (-v|--version)
+
+Options:
+  -h --help                     Show this screen
+  -v --version                  Show version
+DOC;
