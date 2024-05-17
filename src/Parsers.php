@@ -14,4 +14,5 @@ switch ($extension) {
         return Yaml::parse($content, Yaml::PARSE_OBJECT_FOR_MAP);
     default:
         throw new \Exception('Wrong type of file');
+    }
 }
