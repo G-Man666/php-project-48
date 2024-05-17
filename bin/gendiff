@@ -10,9 +10,12 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function Differ\Differ\gendiff;
+require __DIR__.'/../vendor/docopt/docopt/src/docopt.php';
 
-$doc = <<<DOC
+use function Differ\Differ\genDiff;
+
+$doc = <<<'DOCOPT'
+
 gendiff -h
 
 Generate diff
@@ -23,10 +26,12 @@ Usage:
   gendiff [--format <fmt>] <firstFile> <secondFile>
 
 Options:
-  -h --help                     Show this screen
-  -v --version                  Show version
-  --format <fmt>                Report format [default: stylish]
-DOC;
+  -h --help                  Show this screen
+  -v --version               Show version
+  --format <fmt>             Report format [default: stylish]
 
-$args = Docopt::handle($doc, ['version'=>'Naval Fate 2.0']);
-$diff = genDiff($args->args['<firstFile>'], $args->args['<secondFile>'], $args->args['<--format>']);
+DOCOPT;
+
+$args = Docopt::handle($doc, ['version'=>'gendiff 2.0']);
+$diff = genDiff($args->args['<firstFile>'], $args->args['<secondFile>'], $args->args['--format']);
+print_r($diff);
