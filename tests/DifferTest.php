@@ -8,7 +8,7 @@ use function Differ\Differ\genDiff;
 
 class DifferTest extends TestCase
 {
-    public function testGenerateDiffJson(): void
+    public function testGenereateDiffJson(): void
     {
         $expected = file_get_contents('./tests/fixtures/nestedStylishDiff');
         $actual = genDiff('./tests/fixtures/file1.json', './tests/fixtures/file2.json');
