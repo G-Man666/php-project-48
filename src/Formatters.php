@@ -15,4 +15,3 @@ function format(array $diffTree, string $format): string
             throw new \Exception("Wrong format {$format}!");
     }
 }
-
