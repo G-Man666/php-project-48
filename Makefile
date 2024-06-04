@@ -14,3 +14,6 @@ test-coverage:
 
 test-see-coverage:
 	composer exec --verbose phpunit tests -- --coverage-text
+
+php-stan:
+	vendor/bin/phpstan analyse src --level=9
