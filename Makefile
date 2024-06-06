@@ -7,13 +7,13 @@ lint:
 lint-fix:
 	composer exec --verbose phpcbf -- --standard=PSR12  src bin
 test:
-	composer exec phpunit tests
+	composer exec --verbose phpunit tests
 
 test-coverage:
-	./vendor/bin/phpunit --coverage-clover=build/logs/clover.xml tests
+	XDEBUG_MODE=coverage composer exec --verbose phpunit tests -- --coverage-clover build/logs/clover.xml
 
-test-see-coverage:
-	composer exec --verbose phpunit tests -- --coverage-text
+test-coverage-text:
+	XDEBUG_MODE=coverage composer exec --verbose phpunit tests -- --coverage-text
 
 php-stan:
 	vendor/bin/phpstan analyse src --level=9
