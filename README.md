@@ -5,6 +5,15 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d9e8f23626b70f6d4bb3/test_coverage)](https://codeclimate.com/github/G-Man666/php-project-48/test_coverage)
 [![PHP CI](https://github.com/G-Man666/php-project-48/actions/workflows/workflow.yml/badge.svg)](https://github.com/G-Man666/php-project-48/actions/workflows/workflow.yml)
 
+## Setup
+
+```bash
+git clone https://github.com/G-Man666/php-project-48.git
+cd php-package
+make install
+```
+
+
 ## Run tests
 
 ```sh
