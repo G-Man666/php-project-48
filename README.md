@@ -23,3 +23,6 @@ make test
 
 ## Работа с json файлами.
 [![asciicast](https://asciinema.org/a/URzGOXTx9HJVQzWsR5ZA8Pf5Z.svg)](https://asciinema.org/a/URzGOXTx9HJVQzWsR5ZA8Pf5Z)
+
+
+[![asciicast] (https://asciinema.org/a/W0pm8JX0ZIYTRyNkz2fDrZuEu.svg)](https://asciinema.org/a/W0pm8JX0ZIYTRyNkz2fDrZuEu)
