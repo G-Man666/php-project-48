@@ -8,6 +8,6 @@ function render(array $diffTree): string
     if (is_string($result)) {
         return $result;
     } else {
-        throw new\Exception("It's impossible to encode data to JSON format");
+        throw new \Exception("It's impossible to encode data to JSON format");
     }
 }
