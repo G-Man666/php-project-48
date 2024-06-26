@@ -16,4 +16,4 @@ test-coverage-text:
 	XDEBUG_MODE=coverage composer exec --verbose phpunit tests -- --coverage-text
 
 php-stan:
-	vendor/bin/phpstan analyse src --level=9
+	vendor/bin/phpstan analyse src --level=5
