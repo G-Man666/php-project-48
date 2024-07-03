@@ -35,3 +35,10 @@ make test
 ## Работа с плоскими yaml структурами в stylish формате
 [![asciicast](https://asciinema.org/a/ZOokea5ENNiF5IPRcHNhXMUNO.png)](https://asciinema.org/a/ZOokea5ENNiF5IPRcHNhXMUNO)
 
+## Работа с вложенными json и yaml структурами в stylish формате
+[![asciicast](https://asciinema.org/a/JguIgDwWnYud3r5n09jrWhlka.png)](https://asciinema.org/a/JguIgDwWnYud3r5n09jrWhlka)
+
+## Работа с вложенными json и yaml структурами в plain формате
+[![asciicast](https://asciinema.org/a/uMKj7dFynmkOTk1KDqSNIaakf.png)](https://asciinema.org/a/uMKj7dFynmkOTk1KDqSNIaakf)
+
+## Работа с вложенными json и yaml структурами в json формате

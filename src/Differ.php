@@ -6,11 +6,6 @@ use function Differ\Parsers\parse;
 use function Differ\Formatters\format;
 use function Functional\sort;
 
-function parseJson(string $content): object
-{
-    return json_decode($content);
-}
-
 function genDiff(string $pathToFile1, string $pathToFile2, string $format = 'stylish'): string
 {
     $structure1 = parse(getFileContent($pathToFile1), getFileType($pathToFile1));
