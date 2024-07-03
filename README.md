@@ -20,9 +20,8 @@ make install
 make test
 ```
 
+## Работа с плоскими json структурами в stylish формате
+[![asciicast](https://asciinema.org/a/ykkIOirUEaJ1bXpCHkXJdcqL1.png)](https://asciinema.org/a/ykkIOirUEaJ1bXpCHkXJdcqL1)
 
-## Работа с json файлами.
-[![asciicast](https://asciinema.org/a/URzGOXTx9HJVQzWsR5ZA8Pf5Z.svg)](https://asciinema.org/a/URzGOXTx9HJVQzWsR5ZA8Pf5Z)
-
-## Работа с yaml файлами.
-[![asciicast](https://asciinema.org/a/W0pm8JX0ZIYTRyNkz2fDrZuEu.svg)](https://asciinema.org/a/W0pm8JX0ZIYTRyNkz2fDrZuEu)
+## Работа с плоскими yaml структурами в stylish формате
+[![asciicast](https://asciinema.org/a/ZOokea5ENNiF5IPRcHNhXMUNO.png)](https://asciinema.org/a/ZOokea5ENNiF5IPRcHNhXMUNO)
