@@ -25,3 +25,4 @@ make test
 
 ## Работа с плоскими yaml структурами в stylish формате
 [![asciicast](https://asciinema.org/a/ZOokea5ENNiF5IPRcHNhXMUNO.png)](https://asciinema.org/a/ZOokea5ENNiF5IPRcHNhXMUNO)
+
